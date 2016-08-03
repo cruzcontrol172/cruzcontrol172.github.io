@@ -1,0 +1,219 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Gills-Sans", sans-serif;
+	font-weight: lighter;
+	color: #BFBFBF;
+}
+
+h1 {
+	text-align: left;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #E5E5E5;
+}
+
+header {
+	background: url(../images/Wood_Logo.jpg);
+	background-size: cover;
+	height: 780px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+main {
+	position: relative;
+	padding-top: 752px;
+}
+
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 100px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+
+#Editorial {
+	background-color: #F0F0F0;
+	color: #000000;
+}
+
+.NavLinks {
+	font-size: 14px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family: 'Gills-Sans', sans-serif;
+	letter-spacing: 5px;
+	text-align: center;
+    margin:auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #400213;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0, .4);
+}
+
+#logo {
+	height: 380px;
+	width: 380px;
+	padding-top: 130px;
+	padding-left: 530px;
+}
+
+
+#About {
+	background: url(../images/IMG_4007.jpg);
+	background-size: cover;
+	height: 780px;
+	padding: 200px 700px 0 100px;
+	color: #000000;
+	line-height: 2em;
+
+}
+
+.sectionlabels {
+	background: url(http://wallpapercave.com/wp/E7VdJQX.jpg);
+	background-size: cover;
+	text-align: center;
+	font-weight: lighter;
+	padding: 50px;
+	color: #BFBFBF;
+	letter-spacing: 7px;
+}
+
+.Jian1 {
+	height: 291px;
+	width: auto;
+	padding: 0 0 80px 0;
+}
+
+.Jian3 {
+	height: 530px;
+	width: auto;
+	padding: 80px 0 80px 30px;
+}
+
+#Jian2 {
+	height: 530px;
+	width: auto;
+	padding: 80px 0 80px 150px;
+}
+
+#SallyGrid {
+	background-color: #330000;
+}
+
+#Sally1 {
+	height: 380px;
+	width: auto;
+	padding-top: 150px;
+	padding-left: 150px;
+	padding-bottom: 75px;
+}
+
+#Sally2, #Sally3 {
+	height: 380px;
+	width: auto;
+	padding: 150px 0 75px 30px;
+}
+
+
+#Derek1 {
+	height: 350px;
+	width: auto;
+	padding: 150px 0 30px 150px;
+}
+
+#Derek2, #Derek3 {
+	height: 350px;
+	width: auto;
+	padding: 150px 0 30px 30px;
+}
+
+.BattleGrid {
+	background-color: #000000;
+}
+
+#Nicolas1 {
+	height: 530px;
+	width: auto;
+	padding: 150px 0 30px 150px;
+}
+
+#Nicolas2, #Nicolas3 {
+	height: 530px;
+	width: auto;
+	padding: 150px 0 30px 30px;
+}
+
+#Nicolas4 {
+	height: 530px;
+	width: auto;
+	padding: 0 0 30px 150px;
+}
+
+#Nicolas5, #Nicolas6 {
+	height: 530px;
+	width: auto;
+	padding: 0 0 30px 30px;
+}
+
+.InfoTitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 4px;
+	padding-bottom: 30px;
+	color: #7F7F7F;
+}
+
+.Info {
+	padding-left: 150px;
+	padding-right: 150px;
+	line-height: 2em;
+	padding-bottom: 150px;
+	color: #7F7F7F;
+}
+
+#Portraiture {
+	background: #BDBDBD;
+}
+
+#Por1 {
+	height: 530px;
+	width: auto;
+	padding: 150px 0 30px 150px;
+}
+
+.Por2 {
+	height: 530px;
+	width: auto;
+	padding: 150px 0 30px 30px;
+}
+
+.Por3 {
+	height: 530px;
+	width: auto;
+	padding: 0 0 30px 150px;
+}
+
+.Por4 {
+	height: 530px;
+	width: auto;
+	padding: 0 0 30px 30px;
+}
