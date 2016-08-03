@@ -51,7 +51,7 @@ footer {
 }
 
 .NavLinks {
-	font-size: 14px;
+	font-size: 11px;
 	font-weight: lighter;
 	text-transform: uppercase;
 	font-family: 'Gills-Sans', sans-serif;
@@ -61,11 +61,10 @@ footer {
     left: 0;
     right: 0;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background: #400213;
-    z-index: 150;
-    box-shadow: 0 2px 3px rgba(0,0,0, .4);
+   position: fixed;
 }
 
 #logo {
@@ -97,21 +96,21 @@ footer {
 }
 
 .Jian1 {
-	height: 291px;
+	height: 302px;
 	width: auto;
-	padding: 0 0 80px 0;
+	padding: 0 0 0 0;
 }
 
 .Jian3 {
 	height: 530px;
 	width: auto;
-	padding: 80px 0 80px 30px;
+	padding: 0px 0 30px 30px;
 }
 
 #Jian2 {
 	height: 530px;
 	width: auto;
-	padding: 80px 0 80px 150px;
+	padding: 0px 0 30px 150px;
 }
 
 #SallyGrid {
@@ -187,6 +186,27 @@ footer {
 	padding-right: 150px;
 	line-height: 2em;
 	padding-bottom: 150px;
+	color: #7F7F7F;
+}
+
+#DerekGrid {
+	background: url(../images/IMG_0727.jpg);
+	background-size: cover;
+}
+
+#DerekInfo {
+	padding: 150px 150px 500px 500px;
+	font: "Gills-Sans", sans-serif;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 6px;
+	font-size: 30px;
+	color: #7F7F7F;
+}
+
+#EditInfo {
+	padding: 150px;
+	line-height: 2em;
 	color: #7F7F7F;
 }
 
