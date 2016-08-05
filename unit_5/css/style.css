@@ -8,6 +8,7 @@ body {
 	font-family: "Gills-Sans", sans-serif;
 	font-weight: lighter;
 	color: #BFBFBF;
+	font-size: 1em;
 }
 
 h1 {
@@ -23,9 +24,9 @@ a {
 }
 
 header {
-	background: url(../images/Wood_Logo.jpg);
+	background: url(http://wallpapercave.com/wp/E7VdJQX.jpg);
 	background-size: cover;
-	height: 95vh;
+	height: 100vh;
 	text-align: center;
 }
 
@@ -63,7 +64,7 @@ footer {
 	width: 100%;
 	padding-top: 32px;
 	padding-bottom: 32px;
-	background: #400213;
+	background: rgba(0,0,0, .9);
 	position: fixed;
 }
 .NavLinks a {
@@ -75,12 +76,33 @@ footer {
 	margin: 130px 0 0;
 }
 
+#Welcome {
+	background: url(../images/IMG_6325.jpg);
+	background-size: cover;
+}
+
+.WelcomeTitle {
+	padding: 10em;
+	padding color: rgba(0,0,0, .9);
+	text-align: center;
+	text-transform: uppercase;
+	color: #7F7F7F;
+	font-weight: normal;
+	font-family: "Gills-Sans", sans-serif;
+	letter-spacing: 1.5em;
+	font-size: 1.5em;
+}
+
+span {
+	background-color: black;
+	padding: 2em;
+}
 
 #About {
 	background: url(../images/IMG_4007.jpg);
 	background-size: cover;
 	height: 780px;
-	padding: 200px 700px 0 100px;
+	padding: 10em 35em 5em 5em;
 	color: #000000;
 	line-height: 2em;
 
@@ -99,7 +121,6 @@ footer {
 	background-color: #330000;
 }
 
-img { width:100%;}
 .BattleGrid {
 	background-color: #000000;
 }
@@ -107,27 +128,34 @@ img { width:100%;}
 .BattleGrid img {
 	width: 33.33%;
 	float: left;
-	padding: 1em;
 }
-.BattleGrid .Jian1 {
-    width: 14.285%;
-    padding: 0;
+
+
+#BattleGrid {
+	background: url(../images/IMG_4356.jpg);
+	background-size: cover;
 }
+
 .InfoTitle {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: normal;
 	letter-spacing: 4px;
-	padding-bottom: 30px;
 	color: #7F7F7F;
+	padding: 3em;
+	display: inline-block;
 }
 
 .Info {
-	padding-left: 150px;
-	padding-right: 150px;
 	line-height: 2em;
-	padding-bottom: 150px;
+	padding: 5em;
 	color: #7F7F7F;
+	display: inline-block;
+}
+
+#Free {
+	background: url(http://orig08.deviantart.net/0895/f/2008/197/e/7/hert_graffiti_pattern_by_fgruracrew.jpg);
+	background-size: cover;
 }
 
 #DerekGrid {
@@ -146,11 +174,22 @@ img { width:100%;}
 }
 
 #EditInfo {
-	padding: 150px;
+	padding: 5em;
 	line-height: 2em;
-	color: #7F7F7F;
+	color: #000000;
 }
+
+#MoeGrid {
+	background: url(../images/JianVasquez1.jpg);
+	background-size: cover;
+}
+
 
 #Portraiture {
 	background: #BDBDBD;
+}
+
+#Portraiture img {
+	width: 33.33%;
+	float: left;
 }
